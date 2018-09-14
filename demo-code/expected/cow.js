@@ -14,9 +14,12 @@ import Animal from './animal';
  * @extends Animal
  */
 export default class Cow extends Animal {
+    /**
+     * Constructor
+     * @param {object} denotation 
+     */
     constructor(denotation) {
         super(denotation);
-        
     }
 
     /**
@@ -34,6 +37,14 @@ export default class Cow extends Animal {
      */
     speak() {
         return "meow";        
+    }
+
+    /**
+     * Is the cow home
+     * @ignore 
+     */
+    isHome() {
+        return false; 
     }
 
 }

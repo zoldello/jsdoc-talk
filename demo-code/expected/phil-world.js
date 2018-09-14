@@ -4,6 +4,7 @@ import Animal from './animal';
 {
     let cow = new Cow();
 
+
     /**
      * @throws "No meat exception"
      */

@@ -13,15 +13,8 @@
  export default class Animal {
 
     constructor(denotation) { 
-        /**
-         * @type {string} species
-         */
         self.species = denotation.species;
-        
-        /** @type {number} age */
         self.age = denotation.age;
-
-        /** @type {string | number}  Name of animal */
         self.name = null; 
     }
 
