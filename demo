@@ -1,0 +1,47 @@
+Act 1: Header of file
+
+a. 
+	@file Does DNA processing
+	@author Jane Smith <jsmith@example.com>
+	@license Apache-2.0
+	@since
+	@copyright <some copyright text>
+
+
+Note: Show intellisense!
+
+------
+
+Act 2: Class
+	/** */
+
+	Note: @class seems to be for ES5
+
+------
+
+Act 3: Basic Visual Code Plugin
+	a. Create function with parameters AND retun
+	b. Use tool to auto-create 
+
+------
+
+
+Act 4: More options
+	@deprecated since version 2.0
+
+
+------
+
+Act 5: More class stuff
+	 @extends Point 
+	 @module
+
+	Note: @argument seems to be for ES5
+
+
+------
+
+Act 6: Misc
+	@ignore
+
+
