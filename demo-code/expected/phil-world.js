@@ -8,7 +8,7 @@ import Animal from './animal';
     /**
      * @throws "No meat exception"
      */
-    const isWorldLegig = () => { 
+    const isWorldLegit = () => { 
         if (!cow.isEdibleByHumans()) {
             throw 'No eating meat!';
         }
