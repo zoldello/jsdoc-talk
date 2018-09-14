@@ -1,5 +1,5 @@
 /**
- * @file Animal- A type of living thing
+ * @file Animal- Template for a living thing
  * @author Phil example@example.com
  * @license MIT
  * @since 0.0.1
@@ -12,32 +12,31 @@
   */
  export default class Animal {
 
-    constructor(denotation) { 
-        self.species = denotation.species;
-        self.age = denotation.age;
-        self.name = null; 
-    }
-
     /**
-     * Vocal expression
-     * 
-     *  @returns {string} Vocalization
+     * @param {object} Animal annotation information
      */
-    speak() {
-        return "hiss";
+    constructor(label) { 
+        this.species = label.species;
+        this.age = label.age;
+        this.name = null; 
     }
-
 
     /**
      * Name the Animal
-     * 
      * @param {string | number} Name of animal  
      */
     giveName(name) {
         if (name === 'terrible name' || !name) {
             return; 
         } 
-        self.name = name.trim();
+        this.name = name.trim();
     }
 
+    /**
+     * Vocal expression
+     *  @returns {string} Vocalization
+     */
+    speak() {
+        return "hiss";
+    }
  }
