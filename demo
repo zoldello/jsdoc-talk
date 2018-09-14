@@ -41,7 +41,7 @@ Act 5: More class stuff
 
 ------
 
-Act 6: Misc
-	@ignore
+Act 6: Generate Doc
+documentation build expected/** -f html -o docs
 
 

@@ -14,5 +14,5 @@ import Animal from './animal';
         }
     };
 
-    isWorldLegig();
+    isWorldLegit();
 }

@@ -34,6 +34,8 @@ export default class Cow extends Animal {
 
     /**
      * Communication
+     * 
+     *  @returns {string} Vocalization
      */
     speak() {
         return "meow";        

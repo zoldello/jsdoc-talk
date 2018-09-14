@@ -20,6 +20,8 @@
 
     /**
      * Vocal expression
+     * 
+     *  @returns {string} Vocalization
      */
     speak() {
         return "hiss";
